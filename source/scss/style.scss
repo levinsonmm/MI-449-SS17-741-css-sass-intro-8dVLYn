@@ -1,0 +1,18 @@
+$serif-fonts: Georgia, Cambria, "Times New Roman", serif;
+$font-base-size: 20px;
+$color1: rgba(219, 147, 176, 1);
+$color2: rgba(247, 191, 180, 1);
+$color3: rgba(125, 175, 156, 1);
+$color4: rgba(35, 150, 127, 1);
+$color5: rgba(78, 75, 92, 1);
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+input,
+textarea {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 0.5;
+}
