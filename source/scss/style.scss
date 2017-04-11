@@ -1,5 +1,6 @@
 $serif-fonts: Georgia, Cambria, "Times New Roman", serif;
 $font-base-size: 20px;
+$border-rad: 15px 50px;
 $color1: rgba(219, 147, 176, 1);
 $color2: rgba(247, 191, 180, 1);
 $color3: rgba(125, 175, 156, 1);
@@ -9,10 +10,42 @@ $color5: rgba(78, 75, 92, 1);
 body {
   font-family: $serif-fonts;
   font-size: $font-base-size;
+  text-align: center;
 }
 
 input,
 textarea {
   font-family: $serif-fonts;
   font-size: $font-base-size * 0.5;
+}
+
+h1 {
+  color: $color1;
+}
+
+h2 {
+  color: $color2;
+}
+
+h3 {
+  color: $color3;
+}
+
+h4 {
+  color: $color4;
+}
+
+h5 {
+  color: $color5;
+}
+
+h6 {
+  color: lighten($color5, 20%);
+}
+
+img,
+input[type="text"],
+input[type="password"],
+textarea {
+  border-radius: $border-rad;
 }
