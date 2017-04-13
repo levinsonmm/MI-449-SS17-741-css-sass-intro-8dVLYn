@@ -39,7 +39,20 @@ h6 {
 
 img,
 input[type="text"],
+input[type="button"],
 input[type="password"],
 textarea {
   border-radius: $border-rad;
+}
+
+table {
+  color: $color4;
+
+  th {
+    background-color: $color2;
+
+    &:hover {
+      background-color: $color1;
+    }
+  }
 }
